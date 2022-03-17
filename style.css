@@ -1,0 +1,101 @@
+body {
+   background-image: url(images/random-background.jpeg);
+   background-size: cover;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   text-align: center;
+}
+
+  h1 {
+  color: rgba(0, 0, 0, 0.349);
+  font-size: 50px;
+}
+
+h2 {
+  color: rgb(255, 145, 0);
+  font-size: 30px;
+  font-weight: 400px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  box-shadow: 10px 8px 10px darkgray;
+}
+
+button {
+  background-color: #ff9102;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+button:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+
+div {
+background: white;
+padding: 30px;
+border-radius: 4px;
+box-shadow: 0 80px 60px rgba(0,0,0,.1);
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  width: 80px;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+i {
+  font-size: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+a:hover {
+   color: orangered;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+  width: 600px;
+}
+
+/*@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+ /* .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  /*.container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  /*.container {
+    width: 300px;
+  }
+}*/
